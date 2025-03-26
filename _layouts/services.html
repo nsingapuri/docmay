@@ -32,12 +32,12 @@ bodyClass: "page-services"
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
-            <h2 class="service-title">
+            <h3 class="service-title">
               <a href="{{ service.url | relative_url }}">
                 <img alt="{{ service.title }}" class="intro-image{% if service.intro_image_absolute %} intro-image-absolute{% endif %}{% if service.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="../../{{ service.intro_image | relURL }}" />
                 {{ service.title }}
               </a>
-            </h2>
+            </h3>
             <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
           </div>
         </div>

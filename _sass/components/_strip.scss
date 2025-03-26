@@ -1,6 +1,22 @@
 .strip {
   background: white;
   background-repeat: no-repeat;
+
+  h2 {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    color: $black;
+    font-family: $font-family-base;
+    font-weight: bold;
+  }
+  .container > h2 {
+      text-align: center;
+      margin-top: 0;
+      padding-bottom: 2em;
+  }
 }
 .strip-white {
   background-color: white;

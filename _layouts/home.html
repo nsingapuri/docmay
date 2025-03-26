@@ -23,20 +23,20 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
+      <h2 style="margin-bottom:2em;">Veterinary Services</h2>
     <div class="row justify-content-start">
-      <h2>Veterinary Services</h2>
       {% assign limit = site.home.limit_services | default: 6 %}
       {% for service in site.services limit: limit %}
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
-            <h2 class="service-title">
+            <h3 class="service-title">
               <a href="{{ service.url | relative_url }}">
                 <img alt="{{ service.title }}" class="intro-image{% if service.intro_image_absolute %} intro-image-absolute{% endif %}{% if service.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ service.intro_image | relURL }}" />
                 {{ service.title }}
               </a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            </h3>
+            <p>{{ service.excerpt | markdownify | strip_html | truncate: 200 }}</p>
           </div>
         </div>
       </div>
