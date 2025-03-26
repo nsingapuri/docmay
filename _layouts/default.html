@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.svg' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/images/favicon.png' | relative_url }}">
+
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +28,8 @@
 </head>
 
 <body class='page {{layout.bodyClass}}'>
+  <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script> <script type="text/javascript"> var JFL_250783740634157 = new JotformFeedback({ formId: '250783740634157', base: 'https://form.jotform.com/', windowTitle: 'Appointment Request Form', backgroundColor: '#FFA500', fontColor: '#FFFFFF', type: 'false', height: 500, width: 700, openOnLoad: false }); </script> <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script> 
+  
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}

@@ -34,7 +34,7 @@ bodyClass: "page-services"
           <div class="service-content">
             <h2 class="service-title">
               <a href="{{ service.url | relative_url }}">
-                <img alt="{{ service.title }}" class="intro-image{% if service.intro_image_absolute %} intro-image-absolute{% endif %}{% if service.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ service.intro_image | relURL }}" />
+                <img alt="{{ service.title }}" class="intro-image{% if service.intro_image_absolute %} intro-image-absolute{% endif %}{% if service.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="../../{{ service.intro_image | relURL }}" />
                 {{ service.title }}
               </a>
             </h2>

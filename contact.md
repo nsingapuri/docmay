@@ -11,13 +11,11 @@ intro_image_absolute: false
 intro_image_hide_on_mobile: false
 ---
 
+## Service Area
+![Dr. Mays Service Area](../images/service-area.png){: width="100%" }
 
-| Day       | Availability      |
-| --------- | ----------------- |
-| Monday    | 10:00am - 4:00pm  |
-| Tuesday   | 10:00am - 4:00pm  |
-| Wednesday | 10:00am - 4:00pm  |
-| Thursday  | 10:00am - 4:00pm  |
-| Friday    | 10:00am - 4:00pm  |
-| Saturday  | 10:00am - 4:00pm  |
-| Sunday    | Closed            |
+Green: 0-20 miles. No trip charge.
+Yellow: Trip charge.
+Red: Limited availability, please call or email to schedule
+
+Dr May operates out of Alamo Heights. She also accomidate appointments in the greater San Antonio Area including Bulverde, Converse,  Helotes, Leon Valley, Live Oak, Olmos Park, Schertz, Stone Oak, and Terrell Hills. On the map above, green areas (appointments up to 20 miles away) can be accomidated at her base rate. Yellow areas will incur a trip charge but can be scheduled online. Red areas have limited availability, please call or email in order to schedule.
