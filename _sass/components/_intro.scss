@@ -21,6 +21,8 @@
     @include media-breakpoint-up(lg) {
       font-size: 50px;
     }
+    text-align: center;
+
   }
   h2 {
     width: 80%;
@@ -29,6 +31,12 @@
     margin-bottom: 30px;
     color: $black;
     font-family: $font-family-base;
+    font-weight: bold;
+  }
+  .container > h2 {
+      text-align: center;
+      margin-top: 0;
+      padding-bottom: 2em;
   }
   p {
     font-size: 1.2rem;

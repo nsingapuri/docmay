@@ -1,16 +1,23 @@
 ---
-title: Contact
+title: Contact Dr. May
 layout: contact
-description: Contact
+description: Contact Dr. Erin May
+
+h1title: Contact Dr. May
+h2title: Have questions? Please get in touch by email, phone or text.
+
+intro_image: "../images/dr_erin_may_2.png"
+intro_image_absolute: false
+intro_image_hide_on_mobile: false
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| Day       | Availability      |
+| --------- | ----------------- |
+| Monday    | 10:00am - 4:00pm  |
+| Tuesday   | 10:00am - 4:00pm  |
+| Wednesday | 10:00am - 4:00pm  |
+| Thursday  | 10:00am - 4:00pm  |
+| Friday    | 10:00am - 4:00pm  |
+| Saturday  | 10:00am - 4:00pm  |
+| Sunday    | Closed            |

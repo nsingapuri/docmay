@@ -5,18 +5,18 @@ bodyClass: "page-home"
 
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
+    <h1>{{ page.h1title }}</h1>
+    <h2>{{ page.h2title }}</h2>
+    <br/>
+  <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
+      </div>
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        {% if page.intro_image %}
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
         {% endif %}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}
     </div>
   </div>
 </div>
@@ -30,18 +30,16 @@ bodyClass: "page-home"
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              <a href="{{ service.url | relative_url }}">
+                <img alt="{{ service.title }}" class="intro-image{% if service.intro_image_absolute %} intro-image-absolute{% endif %}{% if service.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ service.intro_image | relURL }}" />
+                {{ service.title }}
+              </a>
             </h2>
             <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
           </div>
         </div>
       </div>
       {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
     </div>
   </div>
 </div>

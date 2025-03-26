@@ -42,6 +42,40 @@
       color: $black;
     }
   }
+
+
+  .schedule-box-bottom {
+    width: 100%;
+    flex: auto;
+    padding: 20px;
+    border-top: 1px solid darken($white-offset, 5%);
+    @include media-breakpoint-up(sm) {
+      flex: 0 0 auto;
+      border: none;
+    }
+  }
+  .schedule-box-bottom a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .virtual-box-bottom {
+    width: 100%;
+    flex: auto;
+    padding: 20px;
+    border-top: 1px solid darken($white-offset, 5%);
+    @include media-breakpoint-up(sm) {
+      flex: 0 0 auto;
+      border: none;
+    }
+  }
+
+  .virtual-box-bottom a {
+    width: 100%;
+    text-align: center;
+  }
+  
+
   strong {
     font-weight: bold;
   }

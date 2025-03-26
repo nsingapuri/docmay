@@ -1,33 +1,27 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "image": "images/social/github.svg"
+    "name": "Yelp",
+    "link": "https://www.yelp.com/biz/dr-may-veterinary-housecall-services-gentle-euthanasia-san-antonio",
+    "image": "images/social/1221593_media_logo_yelp_social.png"
   },
   {
-    "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
-    "image": "images/social/twitter.svg"
+    "name": "Google",
+    "link": "hhttps://g.co/kgs/WvTAfbF",
+    "image": "images/social/734396_google_online_social_media_search.png"
   },
   {
       "name": "Facebook",
-      "link": "https://facebook.com",
-      "image": "images/social/facebook.svg"
+      "link": "https://www.facebook.com/WholePetMobileVet",
+      "image": "images/social/734399_facebook_social_online_media.png"
   },
   {
       "name": "Email",
       "link": "mailto:ekyllserif@example.com ",
-      "image": "images/social/email.svg"
+      "image": "images/social/1011336_mail_email_send_message_envelope.png"
   },
   {
-      "name": "Instagram",
+      "name": "Phone",
       "link": "https://instagram.com",
-      "image": "images/social/instagram.svg"
-  },
-  {
-      "name": "Discord",
-      "link": "https://discord.com",
-      "image": "images/social/discord.svg"
+      "image": "images/social/1078686_social_phone_media_logo.png"
   }
-
 ]

@@ -1,14 +1,16 @@
 baseurl: "/docmay/"
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Dr. Erin May'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  mobile: "images/logo/logo.png"
+  mobile_height: "40px"
+  mobile_width: "100px"
+  desktop: "images/logo/logo.png"
+  desktop_height: "100px"
+  desktop_width: "250px"
+
+
 
 home: 
   limit_services: 6

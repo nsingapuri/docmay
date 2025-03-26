@@ -5,10 +5,14 @@ bodyClass: "page-services"
 
 <div class="intro">
   <div class="container">
+    <h1>{{ page.h1title }}</h1>
+    <h2>{{ page.h2title }}</h2>
+    <br/>
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
       </div>
+
       {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
@@ -18,19 +22,26 @@ bodyClass: "page-services"
   </div>
 </div>
 
+<div style="width:62%; margin: auto;">
+  {% include appointment.html show_button=true%}
+</div>
+
 <div class="container pt-6 pb-6">
   <div class="row">
     {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">
+                <img alt="{{ service.title }}" class="intro-image{% if service.intro_image_absolute %} intro-image-absolute{% endif %}{% if service.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ service.intro_image | relURL }}" />
+                {{ service.title }}
+              </a>
+            </h2>
+            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
         </div>
       </div>
-    </div>
     {% endfor %}
   </div>
 </div>
