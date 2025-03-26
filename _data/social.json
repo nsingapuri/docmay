@@ -6,7 +6,7 @@
   },
   {
     "name": "Google",
-    "link": "hhttps://g.co/kgs/WvTAfbF",
+    "link": "https://g.co/kgs/WvTAfbF",
     "image": "images/social/734396_google_online_social_media_search.png"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
       "name": "Email",
-      "link": "mailto:ekyllserif@example.com ",
+      "link": "mailto:dr.erin.may@gmail.com",
       "image": "images/social/1011336_mail_email_send_message_envelope.png"
   },
   {
       "name": "Phone",
-      "link": "https://instagram.com",
+      "link": "tel:210.460.3355",
       "image": "images/social/1078686_social_phone_media_logo.png"
   }
 ]
