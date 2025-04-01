@@ -1,7 +1,9 @@
 <div id="main-menu" class="main-menu">
-  {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
-    <li><script>window.jotformEmbedHandler("iframe[id='250783740634157']", "https://form.jotform.com/")</script> <a class="lightbox-250783740634157" style="">Appointment Request</a></li>
+    <li>
+      <div data-fillout-id="sjbUhPGf9Tus" data-fillout-embed-type="popup" data-fillout-button-text="Schedule Dr. May" data-fillout-dynamic-resize data-fillout-button-color="#FF6400" data-fillout-button-size="small" data-fillout-inherit-parameters data-fillout-popup-size="large"></div><script src="https://server.fillout.com/embed/v1/"></script>
+    </li>
+    {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
